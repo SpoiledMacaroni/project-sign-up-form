@@ -8,42 +8,51 @@
 </head>
 <body>
   <main>
-    <section class="image-sidebar">
-      <div class="banner shadow">
-        <img src="assets/dennis-lay-logo.svg" alt="logo">
-        <h1 class="logo-text">ODIN</h1>
-      </div>
-      <div class="footer">Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Halie West</a> on <a href="https://unsplash.com">Unsplash.com</a></div>
-    </section>
-    <section class="text-content-container">
-      <div class="cta-container">
-        <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</h2>
-        <h2>Sign up <em>now</em> to get started.</h2>
-        <br>
-        <h2>You <em>know</em> you want to.</h2>
-      </div>
-      <div class="form-container shadow">
-        <h2>Let's do this!</h2>
-        <div class="vertical-form-container">
-          <label for="first-name">First Name</label><br>
-          <input type="text" id="first-name" name="first-name" required minlength="4" maxlength="8" size="10" /><br>
-          <label for="email">Email</label><br>
-          <input type="email" id="email" name="email" required minlength="4" maxlength="8" size="10" /><br>
-          <label for="password">Password</label><br>
-          <input type="password" id="password" name="password" required minlength="4" maxlength="8" size="10" /><br>
+    <div class="flex-container">
+      <div class="image-sidebar">
+        <div class="spacer"></div>
+        <div class="banner shadow">
+          <img src="assets/dennis-lay-logo.svg" alt="logo">
+          <h1 class="logo-text">ODIN</h1>
         </div>
-        <div class="vertical-form-container">
-          <label for="last-name">Last Name</label><br>
-          <input type="text" id="last-name" name="last-name" required minlength="4" maxlength="8" size="10" /><br>
-          <label for="phone-number">Email</label><br>
-          <input type="tel" id="phone-number" name="phone-number" required minlength="4" maxlength="8" size="10" /><br>
-          <label for="confirm-password">Confirm Password</label><br>
-          <input type="password" id="confirm-password" name="confirm-password" required minlength="4" maxlength="8" size="10" /><br>
-        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="footer">Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Halie West</a> on <a href="https://unsplash.com">Unsplash.com</a></div>
       </div>
-      <button class="green-button">Create Account</button>
-      <p class="login">Already have an account? <a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form">Log in</a></p>
-    </section>
+      <div class="text-content-container">
+        <div class="spacer"></div>
+        <div class="cta-container">
+          <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</h2>
+          <h2>Sign up <em>now</em> to get started.</h2>
+          <br>
+          <h2>You <em>know</em> you want to.</h2>
+        </div>
+        <div class="form-container shadow">
+          <h2>Let's do this!</h2>
+          <div class="inner-form-container">
+          <div class="vertical-form-container">
+            <label for="first-name">First Name</label><br>
+            <input type="text" id="first-name" name="first-name" required minlength="4" maxlength="8" size="10" /><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required minlength="4" maxlength="8" size="10" /><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" required minlength="4" maxlength="8" size="10" /><br>
+          </div>
+          <div class="vertical-form-container">
+            <label for="last-name">Last Name</label><br>
+            <input type="text" id="last-name" name="last-name" required minlength="4" maxlength="8" size="10" /><br>
+            <label for="phone-number">Email</label><br>
+            <input type="tel" id="phone-number" name="phone-number" required minlength="4" maxlength="8" size="10" /><br>
+            <label for="confirm-password">Confirm Password</label><br>
+            <input type="password" id="confirm-password" name="confirm-password" required minlength="4" maxlength="8" size="10" /><br>
+          </div>
+        </div>
+        </div>
+        <button class="green-button">Create Account</button>
+        <p class="login">Already have an account? <a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form">Log in</a></p>
+        <div class="spacer"></div>
+      </div>
+  </div>
   </main>
 </body>
 </html>
