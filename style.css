@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Norse-Bold';
+  src: url(./assets/Norse-Bold.otf);
+}
+
 *{
   margin:0;
   padding:0;
@@ -40,6 +45,7 @@ div.banner {
 
 .logo-text {
   color: white;
+  font-size: 48px;
 }
 
 .footer {
